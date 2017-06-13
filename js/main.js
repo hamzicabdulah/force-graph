@@ -48,7 +48,7 @@ d3.json(
       .links(links)
       .on('tick', tick)
       .linkDistance(width / 25)
-      .charge(-width / 22)
+      .charge(-width / 23)
       .start();
 
     function tick() {

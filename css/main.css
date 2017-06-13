@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+}
+h1 {
+  padding: .5em;
+  margin: 0;
+  text-align: center;
+  background: #1f292e;
+  color: #a3c0f5;
+  font-family: 'Merriweather', serif;
+}
+svg {
+  background-color: #a3c0f5;
+}
+.link {
+  stroke: gray;
+  stroke-width: .6px;
+}
+.node img {
+  cursor: pointer;
+  margin-left: -8px;
+  margin-bottom: 5.5px;
+}

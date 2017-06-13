@@ -29,12 +29,12 @@ d3.json(
       .enter()
       //The nodes are foreign-object elements, so that they can have the flag images as their children
       .append('foreignObject')
+      .attr('width', 32)
+      .attr('height', 22)
       .attr('class', 'node')
 
     node
       .append('xhtml:img')
-      .attr('width', 16)
-      .attr('height', 11)
       //The classes are styled in the flags.min.css file
       .attr('class', (d) => 'flag flag-' + d.code);
 

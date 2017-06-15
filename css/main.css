@@ -1,21 +1,18 @@
 html, body {
   margin: 0;
-  background: #333333;
-}
-h1 {
-  padding: .5em;
-  margin: 0;
-  text-align: center;
-  background: #d1d1e0;
-  color: #1f292e;
-  font-family: 'Merriweather', serif;
-}
-svg {
   background-image: url(https://www.3dtotal.com/admin/new_cropper/tutorial_content_images/243_tid_image001.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #a3c0f5;
+}
+h1 {
+  padding: .5em;
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-family: 'Bowlby One', cursive;
+  text-transform: uppercase;
 }
 .link {
   stroke: gray;
